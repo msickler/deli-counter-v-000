@@ -1,13 +1,13 @@
 # Write your code here.
 katz_deli=[]
 
-def line(katz_deli)
-if katz_deli.length == 0
+def line(another_deli)
+if another_deli.length == 0
   puts "The line is currently empty."
 else
   current_line = "The line is currently:"
-  katz_deli.each_with_index do |name, i|
-  current_line << "#{index + 1}. #{name}"
+  another_deli.each_with_index do |name, i|
+  current_line << "#{i + 1}. #{name}"
  end
  return current_line
 end
