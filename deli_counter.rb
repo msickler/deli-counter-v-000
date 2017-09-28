@@ -7,7 +7,7 @@ if another_deli.length == 0
 else
   current_line = "The line is currently:"
   another_deli.each_with_index do |name, i|
-  current_line << "#{i + 1}. #{name}"
+  current_line << " #{i + 1}. #{name}"
  end
   puts current_line
 end
