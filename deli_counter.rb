@@ -8,7 +8,7 @@ else
    list = katz_deli.push("The line is currently: #{index + 1}. #{name}")
  end
  return list
-
+end
 end
 
 def take_a_number(katz_deli, name)
