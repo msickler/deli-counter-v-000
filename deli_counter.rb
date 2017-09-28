@@ -19,6 +19,7 @@ def take_a_number(another_deli, name)
 end
 
 def now_serving
-  if another_deli.length == 0 
-    puts There is nobody waiting to be served!"
+  if another_deli.length == 0
+    puts "There is nobody waiting to be served!"
+  end
 end
