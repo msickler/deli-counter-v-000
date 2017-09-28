@@ -16,5 +16,5 @@ end
 def take_a_number(another_deli, name)
  another_deli << name
  puts "Welcome, #{name}. You are number #{another_deli.length} in line."
- 
+
 end
