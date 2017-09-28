@@ -9,7 +9,7 @@ else
   another_deli.each_with_index do |name, i|
   current_line << "#{i + 1}. #{name}"
  end
- return current_line
+  puts current_line
 end
 end
 
